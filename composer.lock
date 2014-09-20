@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "059ff6a33afd2aeeabdc83f9adf5b964",
+    "hash": "a339109dbe726d0b9258488483616870",
     "packages": [
         {
             "name": "concretehouse/factory-pattern",
@@ -12,24 +12,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tamakiii/factory-pattern.git",
-                "reference": "80db246f37771558efadca0108b71b853d2bd6b9"
+                "reference": "4c66dcaafb5751d8c2576a1e1ac7201eabf9220a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tamakiii/factory-pattern/zipball/80db246f37771558efadca0108b71b853d2bd6b9",
-                "reference": "80db246f37771558efadca0108b71b853d2bd6b9",
+                "url": "https://api.github.com/repos/tamakiii/factory-pattern/zipball/4c66dcaafb5751d8c2576a1e1ac7201eabf9220a",
+                "reference": "4c66dcaafb5751d8c2576a1e1ac7201eabf9220a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": ">=5.3.2",
+                "pimple/pimple": ">=3.0"
             },
             "require-dev": {
                 "phake/phake": "dev-master",
                 "phpunit/phpunit": "4.2.*"
             },
-            "bin": [
-                "bin/phpunit"
-            ],
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -44,7 +42,7 @@
                 }
             ],
             "description": "Experimental implementation of Factory design pattern.",
-            "time": "2014-09-19 14:09:11"
+            "time": "2014-09-20 12:02:29"
         },
         {
             "name": "concretehouse/repository-pattern",
@@ -89,6 +87,52 @@
             ],
             "description": "Experimental implementation of Model-Repository design pattern.",
             "time": "2014-09-14 10:49:18"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fabpot/Pimple.git",
+                "reference": "8156c13d978b98d6b1e6395b9c9f0adc8814c20a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fabpot/Pimple/zipball/8156c13d978b98d6b1e6395b9c9f0adc8814c20a",
+                "reference": "8156c13d978b98d6b1e6395b9c9f0adc8814c20a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple is a simple Dependency Injection Container for PHP 5.3",
+            "homepage": "http://pimple.sensiolabs.org",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2014-08-29 17:31:46"
         }
     ],
     "packages-dev": [
@@ -98,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlively/Phake.git",
-                "reference": "d07c3ff11bfae1648e315eb54657490673a10cc2"
+                "reference": "2d085c14a440f3ee4d174e96e4c388934c4d78e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlively/Phake/zipball/d07c3ff11bfae1648e315eb54657490673a10cc2",
-                "reference": "d07c3ff11bfae1648e315eb54657490673a10cc2",
+                "url": "https://api.github.com/repos/mlively/Phake/zipball/2d085c14a440f3ee4d174e96e4c388934c4d78e0",
+                "reference": "2d085c14a440f3ee4d174e96e4c388934c4d78e0",
                 "shasum": ""
             },
             "require": {
@@ -146,7 +190,7 @@
                 "mock",
                 "testing"
             ],
-            "time": "2014-08-12 20:14:11"
+            "time": "2014-09-19 21:07:45"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -785,6 +829,7 @@
         "concretehouse/repository-pattern": 20,
         "phake/phake": 20
     },
+    "prefer-stable": false,
     "platform": {
         "php": ">=5.3.2"
     },
