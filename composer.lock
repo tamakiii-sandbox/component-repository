@@ -12,16 +12,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tamakiii/factory-pattern.git",
-                "reference": "77067bff2f6e5f265e33e217c4de85aaa7d23917"
+                "reference": "4c66dcaafb5751d8c2576a1e1ac7201eabf9220a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tamakiii/factory-pattern/zipball/77067bff2f6e5f265e33e217c4de85aaa7d23917",
-                "reference": "77067bff2f6e5f265e33e217c4de85aaa7d23917",
+                "url": "https://api.github.com/repos/tamakiii/factory-pattern/zipball/4c66dcaafb5751d8c2576a1e1ac7201eabf9220a",
+                "reference": "4c66dcaafb5751d8c2576a1e1ac7201eabf9220a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": ">=5.3.2",
+                "pimple/pimple": ">=3.0"
             },
             "require-dev": {
                 "phake/phake": "dev-master",
@@ -41,7 +42,7 @@
                 }
             ],
             "description": "Experimental implementation of Factory design pattern.",
-            "time": "2014-09-20 10:02:36"
+            "time": "2014-09-20 12:02:29"
         },
         {
             "name": "concretehouse/repository-pattern",
