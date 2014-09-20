@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tamakiii/factory-pattern.git",
-                "reference": "80db246f37771558efadca0108b71b853d2bd6b9"
+                "reference": "77067bff2f6e5f265e33e217c4de85aaa7d23917"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tamakiii/factory-pattern/zipball/80db246f37771558efadca0108b71b853d2bd6b9",
-                "reference": "80db246f37771558efadca0108b71b853d2bd6b9",
+                "url": "https://api.github.com/repos/tamakiii/factory-pattern/zipball/77067bff2f6e5f265e33e217c4de85aaa7d23917",
+                "reference": "77067bff2f6e5f265e33e217c4de85aaa7d23917",
                 "shasum": ""
             },
             "require": {
@@ -27,9 +27,6 @@
                 "phake/phake": "dev-master",
                 "phpunit/phpunit": "4.2.*"
             },
-            "bin": [
-                "bin/phpunit"
-            ],
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -44,7 +41,7 @@
                 }
             ],
             "description": "Experimental implementation of Factory design pattern.",
-            "time": "2014-09-19 14:09:11"
+            "time": "2014-09-20 10:02:36"
         },
         {
             "name": "concretehouse/repository-pattern",
@@ -144,12 +141,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlively/Phake.git",
-                "reference": "d07c3ff11bfae1648e315eb54657490673a10cc2"
+                "reference": "2d085c14a440f3ee4d174e96e4c388934c4d78e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlively/Phake/zipball/d07c3ff11bfae1648e315eb54657490673a10cc2",
-                "reference": "d07c3ff11bfae1648e315eb54657490673a10cc2",
+                "url": "https://api.github.com/repos/mlively/Phake/zipball/2d085c14a440f3ee4d174e96e4c388934c4d78e0",
+                "reference": "2d085c14a440f3ee4d174e96e4c388934c4d78e0",
                 "shasum": ""
             },
             "require": {
@@ -192,7 +189,7 @@
                 "mock",
                 "testing"
             ],
-            "time": "2014-08-12 20:14:11"
+            "time": "2014-09-19 21:07:45"
         },
         {
             "name": "phpunit/php-code-coverage",
