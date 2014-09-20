@@ -1,8 +1,8 @@
 <?php
 
-namespace Concretehouse\Component\Repository\Test\Unit\Pdo;
+namespace Concretehouse\Component\Repository\Test\Unit\Pdo\Concretes;
 
-use Concretehouse\Component\Repository\Pdo\Pdo;
+use Concretehouse\Component\Repository\Pdo\Concretes\Pdo;
 use Phake;
 
 class PdoExt extends Pdo
